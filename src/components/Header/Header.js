@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import {Link} from "react-router-dom";
 import {Container, Nav} from "react-bootstrap";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
 
@@ -36,25 +37,24 @@ const Header = () => {
                                 <div className="main-menu-area">
                                     <ul className="main-menu">
                                         <li className="menu-item active">
-                                            <Link to="/">Home</Link>
+                                            <CustomLink to="/">Home</CustomLink>
                                         </li>
                                         <li className="menu-item">
-                                            <Link to='/reviews'>Reviews</Link>
+                                            <CustomLink to='/reviews'>Reviews</CustomLink>
                                         </li>
                                         <li className="menu-item">
-                                            <Link to="/dashboard">Dashboard</Link>
+                                            <CustomLink to="/dashboard">Dashboard</CustomLink>
                                         </li>
                                         <li className="menu-item">
-                                            <Link to="/blogs">Blogs</Link>
+                                            <CustomLink to="/blogs">Blogs</CustomLink>
                                         </li>
                                         <li className="menu-item">
-                                            <Link to="/about">About</Link>
+                                            <CustomLink to="/about">About</CustomLink>
                                         </li>
                                     </ul>
                                     <div className="nav-icon">
                                         <div className="nav-icon-inner">
-                                            <div onClick={handleMobileMenuOut} className="hamburger hamburger-out"
-                                                 id="hamburger">
+                                            <div onClick={handleMobileMenuOut} className="hamburger hamburger-out" id="hamburger">
                                                 <div className="hamburger__line hamburger__line--01">
                                                     <div className="hamburger__line-in hamburger__line-in--01"></div>
                                                 </div>
