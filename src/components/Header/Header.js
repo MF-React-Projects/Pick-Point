@@ -36,7 +36,7 @@ const Header = () => {
                                 </div>
                                 <div className="main-menu-area">
                                     <ul className="main-menu">
-                                        <li className="menu-item active">
+                                        <li className="menu-item">
                                             <CustomLink to="/">Home</CustomLink>
                                         </li>
                                         <li className="menu-item">
@@ -76,7 +76,6 @@ const Header = () => {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </Container>
                     </Nav>
@@ -86,19 +85,19 @@ const Header = () => {
                 <div className="mobile-menu">
                     <ul className="main-menu d-flex flex-column">
                         <li className="menu-item active">
-                            <Link to="/">Home</Link>
+                            <CustomLink to="/">Home</CustomLink>
                         </li>
                         <li className="menu-item">
-                            <Link to='/reviews'>Reviews</Link>
+                            <CustomLink to='/reviews'>Reviews</CustomLink>
                         </li>
                         <li className="menu-item">
-                            <Link to="/dashboard">Dashboard</Link>
+                            <CustomLink to="/dashboard">Dashboard</CustomLink>
                         </li>
                         <li className="menu-item">
-                            <Link to="/blogs">Blogs</Link>
+                            <CustomLink to="/blogs">Blogs</CustomLink>
                         </li>
                         <li className="menu-item">
-                            <Link to="/about">About</Link>
+                            <CustomLink to="/about">About</CustomLink>
                         </li>
                     </ul>
                     <div className="nav-burger">
