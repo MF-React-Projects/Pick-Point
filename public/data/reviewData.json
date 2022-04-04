@@ -2,50 +2,50 @@
   {
     "id": 1,
     "name": "Charlie Carlisle",
-    "review": "The screen is truly something to behold. Smooth, clear, just beautiful. I don't typically care about bezels, but I might start. The expanded screen makes an unexpected difference. Meanwhile, I barely notice the notch. Apple said they'd find workarounds to make it scarce, and they have.",
+    "comment": "The screen is truly something to behold. Smooth, clear, just beautiful. I don't typically care about bezels, but I might start. The expanded screen makes an unexpected difference. Meanwhile, I barely notice the notch. Apple said they'd find workarounds to make it scarce, and they have.",
     "stars": 5,
     "avatar": "images/review_image_01.jpg"
   },
   {
     "id": 2,
     "name": "Samantha Smith",
-    "review": "M1 pro chip is super powerful - photo/video editing, graphic design - this thing just kills it. Compared to previous MacBook Pro, it's a giant leap ahead. These tasks are a main reason to buy the pro version of the Macbook. This particularly model is the lower end of the spec you can get for a pro, but it still kicks butt.",
+    "comment": "M1 pro chip is super powerful - photo/video editing, graphic design - this thing just kills it. Compared to previous MacBook Pro, it's a giant leap ahead. These tasks are a main reason to buy the pro version of the Macbook. This particularly model is the lower end of the spec you can get for a pro, but it still kicks butt.",
     "stars": 5,
     "avatar": "images/review_image_02.jpg"
   },
   {
     "id": 3,
     "name": "John Doe",
-    "review": "This laptop has a superior display, superior speakers, superior camera and an excellent keyboard. Don't go cheap and buy the \"affordable\" MacBook Air base model like some of these talking heads have been advising. It's not a good buy if you are unhappy with it after six months, and believe me, you will be unhappy with 8 GB of RAM and two USB ports after six months.",
+    "comment": "This laptop has a superior display, superior speakers, superior camera and an excellent keyboard. Don't go cheap and buy the \"affordable\" MacBook Air base model like some of these talking heads have been advising. It's not a good buy if you are unhappy with it after six months, and believe me, you will be unhappy with 8 GB of RAM and two USB ports after six months.",
     "stars": 4,
     "avatar": "images/review_image_03.jpg"
   },
   {
     "id": 4,
     "name": "Jake Johnson",
-    "review": "The upgrade from my 2014 Macbook Pro was easy, as one expects from Apple. The new display is noticeably brighter. My zoom meetings look like I'm in a brighter space. I bought a USB-C (thunderbolt 3) to USB adaptor so I could use my old Time Machine drive.",
+    "comment": "The upgrade from my 2014 Macbook Pro was easy, as one expects from Apple. The new display is noticeably brighter. My zoom meetings look like I'm in a brighter space. I bought a USB-C (thunderbolt 3) to USB adaptor so I could use my old Time Machine drive.",
     "stars": 5,
     "avatar": "images/review_image_04.jpg"
   },
   {
     "id": 5,
     "name": "Michael Jordan",
-    "review": "Apple knocks it out of the park again. The processing speed M1 Pro, storage, long battery life and graphics are amazing. I only use it for my private practice ie. Checking emails, completing therapy notes so it's a bit overkill for my purpose, but I love it!",
+    "comment": "Apple knocks it out of the park again. The processing speed M1 Pro, storage, long battery life and graphics are amazing. I only use it for my private practice ie. Checking emails, completing therapy notes so it's a bit overkill for my purpose, but I love it!",
     "stars": 4,
     "avatar": "images/review_image_05.jpg"
   },
   {
     "id": 6,
     "name": "Christine Smith",
-    "review": "Only reason 4 Starts because, although marked PRIME it was not able to be delivered in the 2 days ! explanation - \"it's coming from warehouse further out\", will be delivered following week on Tuesday. It shipped late and so didn't arrive until Wednesday. Otherwise, I love my purchase of the Apple 14\" Mac Book Pro (Silver).",
+    "comment": "Only reason 4 Starts because, although marked PRIME it was not able to be delivered in the 2 days ! explanation - \"it's coming from warehouse further out\", will be delivered following week on Tuesday. It shipped late and so didn't arrive until Wednesday. Otherwise, I love my purchase of the Apple 14\" Mac Book Pro (Silver).",
     "stars": 4,
     "avatar": "images/review_image_06.jpg"
   },
   {
     "id": 7,
     "name": "Paul Stich",
-    "review": "So far so good!! I bought this M1 MBP and I'm happy with its functionality. It has delivered what the advertisements claim to say. I have been able to work out of this computer since I bought it. The battery life is incredible; one charge can last most of the day with basic usage, but of course it would require another charge if using RAM intensive applications.",
+    "comment": "So far so good!! I bought this M1 MBP and I'm happy with its functionality. It has delivered what the advertisements claim to say. I have been able to work out of this computer since I bought it. The battery life is incredible; one charge can last most of the day with basic usage, but of course it would require another charge if using RAM intensive applications.",
     "stars": 5,
-    "avatar": "images/review_image_07.jpg"
+    "avatar": "images/review_image_01.jpg"
   }
 ]
