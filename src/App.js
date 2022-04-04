@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header/Header";
 import {Route, Routes} from "react-router-dom";
 import Home from "./components/Home/Home";
-import Reviews from "./components/Reviews/Reviews";
+import ReviewPage from "./components/ReviewPage/ReviewPage";
 import NotFound from "./components/NotFound/NotFound";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
             <Header/>
             <Routes>
                 <Route path={'/'} element={<Home/>} />
-                <Route path={'/reviews'} element={<ReviewPage />} />
+                <Route path={'/reviews'} element={<ReviewPage/>} />
                 <Route path={'/dashboard'} element='' />
                 <Route path={'/blogs'} element='' />
                 <Route path={'/about'} element='' />
