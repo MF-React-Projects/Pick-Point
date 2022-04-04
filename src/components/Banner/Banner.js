@@ -4,9 +4,10 @@ import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
 
 const Banner = () => {
-    const [banner, setBanner] = useState([]);
+    const [banner, setBanner] = useState({});
+
     useEffect(() => {
-        fetch('data/banner.json')
+        fetch('data/bannerData.json')
             .then(res => res.json())
             .then(data => setBanner(data))
     }, []);
