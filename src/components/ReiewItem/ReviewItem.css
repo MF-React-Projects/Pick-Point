@@ -8,6 +8,7 @@
     overflow: hidden;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    margin-bottom: 30px;
 }
 @media only screen and (max-width: 991.98px) and (min-width: 768px) {
     .review-items .review-item {

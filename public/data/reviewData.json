@@ -47,5 +47,19 @@
     "comment": "So far so good!! I bought this M1 MBP and I'm happy with its functionality. It has delivered what the advertisements claim to say. I have been able to work out of this computer since I bought it. The battery life is incredible; one charge can last most of the day with basic usage, but of course it would require another charge if using RAM intensive applications.",
     "stars": 5,
     "avatar": "images/review_image_01.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Charlie Carlisle",
+    "comment": "The screen is truly something to behold. Smooth, clear, just beautiful. I don't typically care about bezels, but I might start. The expanded screen makes an unexpected difference. Meanwhile, I barely notice the notch. Apple said they'd find workarounds to make it scarce, and they have.",
+    "stars": 3,
+    "avatar": "images/review_image_01.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Samantha Smith",
+    "comment": "M1 pro chip is super powerful - photo/video editing, graphic design - this thing just kills it. Compared to previous MacBook Pro, it's a giant leap ahead. These tasks are a main reason to buy the pro version of the Macbook. This particularly model is the lower end of the spec you can get for a pro, but it still kicks butt.",
+    "stars": 5,
+    "avatar": "images/review_image_02.jpg"
   }
 ]
