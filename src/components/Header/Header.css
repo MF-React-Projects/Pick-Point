@@ -3,8 +3,15 @@
 ========================================*/
 .header {
     overflow: hidden;
+    background: #f8f8f8;
 }
-
+.header-logo a{
+    text-decoration: none;
+}
+.header-logo h4 {
+    color: #003DA7;
+    font-weight: 700;
+}
 .header .header-bottom {
     padding: 30px 0;
 }

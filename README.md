@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Pick Point
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Best product review site for your products. Pick point is the best place to help you find the best product.
+
+## Live Link
+[Pick Point](https://pick-point.netlify.app/)
+
+## Site Features
+
+* Product Customer Review
+* Product Analysis Dashboard
+* Packages Use
+    * [React Bootstrap](https://react-bootstrap.github.io/)
+    * [React Router](https://reactrouter.com/)
+    * [Font Awesome](https://fontawesome.com/v5/docs/web/use-with/react)
+    * [React Ratting](https://www.npmjs.com/package/react-rating)
+* Stylized 404 Page
 
 ## Available Scripts
 
