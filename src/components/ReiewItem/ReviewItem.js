@@ -5,11 +5,13 @@ import Rating from "react-rating";
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const ReviewItem = ({review}) => {
+const ReviewItem = ({review, reviewPage}) => {
     const {name, comment, stars, avatar} = review;
+    const updatedComment = !reviewPage ? comment.slice(0, 200) + '...' : comment;
+
     return (
-        <Col lg={4} md={4}>
-            <div className="review-item">
+        <Col lg={4} md={4} className={reviewPage ? 'mb-4' : ''}>
+            <div className="review-item h-100">
                 <div className="review-header">
                     <div className="review-avatar">
                         <img src={avatar} alt="avatar" className='img-fluid'/>
@@ -24,7 +26,7 @@ const ReviewItem = ({review}) => {
                         />
                     </div>
                 </div>
-                <p className="feedback-text">{comment.slice(0, 230)}...</p>
+                <p className="feedback-text">{updatedComment}</p>
             </div>
         </Col>
     );

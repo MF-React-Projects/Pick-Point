@@ -11,7 +11,7 @@ const Reviews = () => {
         <section className="testimonial-section">
             <Container>
                 <div className="section-title mb-5 text-center">
-                    <h2>Customer Review ({reviews.length})</h2>
+                    <h2>Customer Review ({reviews.slice(0, 3).length})</h2>
                 </div>
                 <div className="review-items">
                     <Row>

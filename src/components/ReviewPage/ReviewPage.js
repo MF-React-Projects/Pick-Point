@@ -2,7 +2,6 @@ import React from 'react';
 import useReviews from "../../hooks/useReviews";
 import {Container, Row} from "react-bootstrap";
 import ReviewItem from "../ReiewItem/ReviewItem";
-import {Link} from "react-router-dom";
 
 const ReviewPage = () => {
     const [reviews, setReviews] = useReviews();
@@ -15,7 +14,7 @@ const ReviewPage = () => {
                 <div className="review-items">
                     <Row>
                         {
-                            reviews.map(review => <ReviewItem key={review.id} review={review}/>)
+                            reviews.map(review => <ReviewItem key={review.id} review={review} reviewPage/>)
                         }
                     </Row>
                 </div>
