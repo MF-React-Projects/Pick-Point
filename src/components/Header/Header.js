@@ -45,12 +45,6 @@ const Header = () => {
                                         <li className="menu-item">
                                             <CustomLink to="/dashboard">Dashboard</CustomLink>
                                         </li>
-                                        <li className="menu-item">
-                                            <CustomLink to="/blogs">Blogs</CustomLink>
-                                        </li>
-                                        <li className="menu-item">
-                                            <CustomLink to="/about">About</CustomLink>
-                                        </li>
                                     </ul>
                                     <div className="nav-icon">
                                         <div className="nav-icon-inner">
@@ -92,12 +86,6 @@ const Header = () => {
                         </li>
                         <li className="menu-item">
                             <CustomLink to="/dashboard">Dashboard</CustomLink>
-                        </li>
-                        <li className="menu-item">
-                            <CustomLink to="/blogs">Blogs</CustomLink>
-                        </li>
-                        <li className="menu-item">
-                            <CustomLink to="/about">About</CustomLink>
                         </li>
                     </ul>
                     <div className="nav-burger">
